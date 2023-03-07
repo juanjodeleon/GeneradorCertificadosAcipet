@@ -8,7 +8,7 @@
   <head>
     <?php require_once("../html/MainHead.php"); ?>
 
-    <title>Perfil</title>
+    <title>Perfil - Acipet Unal</title>
   </head>
 
   <body>
@@ -25,13 +25,13 @@
       </div>
       <div class="pd-x-20 pd-sm-x-30 pd-t-20 pd-sm-t-30">
         <h4 class="tx-gray-800 mg-b-5">Perfil</h4>
-        <p class="mg-b-0">Pantalla Perfil</p>
+        <p class="mg-b-0">Acá puede actualizar su información.</p>
       </div>
 
       <div class="br-pagebody">
         <div class="br-section-wrapper">
           <h6 class="tx-gray-800 tx-uppercase tx-bold tx-14 mg-b-10">Perfil</h6>
-          <p class="mg-b-30 tx-gray-600">Actualize sus datos</p>
+          <p class="mg-b-30 tx-gray-600">Actualiza tus datos</p>
 
           <div class="form-layout form-layout-1">
             <div class="row mg-b-25">
@@ -90,6 +90,7 @@
 
         </div>
       </div>
+      <?php require_once("../html/Footer.php"); ?>
     </div>
 
     <?php require_once("../html/MainJs.php"); ?>

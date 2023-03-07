@@ -8,7 +8,7 @@
   <head>
     <?php require_once("../html/MainHead.php"); ?>
 
-    <title>Empresa::MntInstructor</title>
+    <title>Instructores - Acipet Unal</title>
   </head>
 
   <body>
@@ -57,6 +57,7 @@
             </div>
 
         </div>
+        <?php require_once("../html/Footer.php"); ?>
       </div>
     </div>
 

@@ -20,7 +20,7 @@ $(document).on("click","#btnconsultar", function(){
             if (data.length>0){
                 data = JSON.parse(data);
 
-                $("#lbldatos").html("Listado de Cursos : "+data.usu_apep+" "+data.usu_apem+" "+data.usu_nom);
+                $("#lbldatos").html("Listado de Certificados : "+data.usu_apep+" "+data.usu_apem+" "+data.usu_nom);
 
                 $('#cursos_data').DataTable({
                     "aProcessing": true,
@@ -71,7 +71,7 @@ $(document).on("click","#btnconsultar", function(){
             }else{
                 Swal.fire({
                     title: 'Error!',
-                    text: 'No Existe Usuario',
+                    text: 'No Tiene certificados Asociados',
                     icon: 'error',
                     confirmButtonText: 'Aceptar'
                 })

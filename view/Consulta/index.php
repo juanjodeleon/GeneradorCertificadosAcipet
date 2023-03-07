@@ -26,7 +26,7 @@
     <meta name="description" content="Premium Quality and Responsive UI for Dashboard.">
     <meta name="author" content="ThemePixels">
 
-    <title>Consulta</title>
+    <title>Consulta Certificados - Acipet Unal</title>
 
     <!-- vendor css -->
     <link href="../../public/lib/font-awesome/css/font-awesome.css" rel="stylesheet">
@@ -44,11 +44,11 @@
     <div class="ht-100v d-flex align-items-center justify-content-center">
       <div class="wd-lg-70p wd-xl-50p tx-center pd-x-40">
         <h1 class="tx-100 tx-xs-140 tx-normal tx-inverse tx-roboto mg-b-0">Consulta</h1>
-        <h5 class="tx-xs-24 tx-normal tx-info mg-b-30 lh-5">Ingrese DNI para Validar Certificados</h5>
+        <h5 class="tx-xs-24 tx-normal tx-info mg-b-30 lh-5">Ingrese su número de documento para validar sus certificados.</h5>
 
         <div class="d-flex justify-content-center">
           <div class="input-group wd-xs-300">
-            <input type="text" id="usu_dni" name="usu_dni" class="form-control" placeholder="DNI...">
+            <input type="text" id="usu_dni" name="usu_dni" class="form-control" placeholder="Número de documento...">
             <div class="input-group-btn">
               <button class="btn btn-info" id="btnconsultar"><i class="fa fa-search"></i></button>
             </div>
@@ -61,8 +61,8 @@
               <div class="pd-x-30 pd-t-30 pd-b-15">
                 <div class="d-flex align-items-center justify-content-between">
                   <div>
-                    <h6 class="tx-13 tx-uppercase tx-inverse tx-semibold tx-spacing-1" id="lbldatos">Listado de Cursos</h6>
-                    <p class="mg-b-0">Aqui podra visualizar los Certificados</p>
+                    <h6 class="tx-13 tx-uppercase tx-inverse tx-semibold tx-spacing-1" id="lbldatos">Listado de Certificados.</h6>
+                    <p class="mg-b-0">Aqui podra visualizar sus certificados</p>
                   </div>
                 </div>
               </div>
@@ -71,7 +71,7 @@
                   <table id="cursos_data" class="table display responsive nowrap">
                     <thead>
                       <tr>
-                        <th class="wd-15p">Curso</th>
+                        <th class="wd-15p">Certificado</th>
                         <th class="wd-15p">Fecha Inicio</th>
                         <th class="wd-20p">Fecha Fin</th>
                         <th class="wd-15p">Instructor</th>

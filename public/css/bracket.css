@@ -1583,7 +1583,7 @@ pre code {
 .form-control:focus, .dataTables_filter input:focus {
   color: #495057;
   background-color: #fff;
-  border-color: #55a6f8;
+  border-color: #0d2873;
   outline: none;
 }
 .form-control::placeholder, .dataTables_filter input::placeholder {
@@ -2063,8 +2063,8 @@ fieldset[disabled] a.btn {
 
 .btn-info {
   color: #fff;
-  background-color: #17a2b8;
-  border-color: #17a2b8;
+  background-color: #006633;
+  border-color: #0d2873;
 }
 .btn-info:hover {
   color: #fff;
@@ -20942,7 +20942,7 @@ a.hover-white-8:hover, a.hover-white-8:focus {
   margin-top: 20px !important;
 }
 
-.mg-r-20-force {
+.mg-t-20-force {
   margin-right: 20px !important;
 }
 
@@ -47371,7 +47371,7 @@ a.hover-white-8:hover, a.hover-white-8:focus {
 }
 
 .tx-normal {
-  font-weight: 400;
+  font-weight: 700;
 }
 
 .tx-light {
@@ -47447,11 +47447,11 @@ a.hover-white-8:hover, a.hover-white-8:focus {
 }
 
 .tx-info {
-  color: #17a2b8;
+  color: #006633;
 }
 
 .tx-inverse {
-  color: #343a40;
+  color: #0d2873;
 }
 
 .tx-teal {

@@ -104,6 +104,8 @@
                     $output["usu_sex"] = $row["usu_sex"];
                     $output["usu_pass"] = $row["usu_pass"];
                     $output["usu_telf"] = $row["usu_telf"];
+                    $output["rol_id"] = $row["rol_id"];
+                    $output["usu_dni"] = $row["usu_dni"];
                 }
                 echo json_encode($output);
             }

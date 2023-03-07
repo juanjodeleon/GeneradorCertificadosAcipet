@@ -11,7 +11,7 @@
       <div class="wd-lg-70p wd-xl-50p tx-center pd-x-40">
         <h1 class="tx-100 tx-xs-140 tx-normal tx-inverse tx-roboto mg-b-0">404!</h1>
         <h5 class="tx-xs-24 tx-normal tx-info mg-b-30 lh-5">Pagina no Encontrada</h5>
-        <p class="tx-16 mg-b-30">Por favor verificar o comunicarse con el administrador.</p>
+        <p class="tx-16 mg-b-30">Si cree que se trata de un error contactenos al correo <a href="mailto:webmaster@acipetunal.com" target="_blank">webmaster@acipetunal.com</a></p>
 
         <div class="text-center">
             <a href="../../index.php" class="btn btn-info"><i class="fa fa-home"></i> Regresar</a>

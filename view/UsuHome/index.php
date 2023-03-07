@@ -7,7 +7,7 @@
 <html lang="es">
   <head>
     <?php require_once("../html/MainHead.php"); ?>
-    <title>Inicio</title>
+    <title>Inicio - Acipet Unal</title>
   </head>
 
   <body>
@@ -31,7 +31,7 @@
           <div class="col-sm-6 col-xl-3">
             <div class="bg-teal rounded overflow-hidden">
               <div class="pd-25 d-flex align-items-center">
-                <i class="ion ion-earth tx-60 lh-0 tx-white op-7"></i>
+                <i class="fa fa-tasks tx-60 lh-0 tx-white op-7"></i>
                 <div class="mg-l-20">
                   <p class="tx-10 tx-spacing-1 tx-mont tx-medium tx-uppercase tx-white-8 mg-b-10">Total de Cursos</p>
                   <p class="tx-24 tx-white tx-lato tx-bold mg-b-2 lh-1" id="lbltotal"></p>
@@ -48,8 +48,8 @@
               <div class="pd-x-30 pd-t-30 pd-b-15">
                 <div class="d-flex align-items-center justify-content-between">
                   <div>
-                    <h6 class="tx-13 tx-uppercase tx-inverse tx-semibold tx-spacing-1">Últimos y Conferencias Certificadas</h6>
-                    <p class="mg-b-0">Aquí se podrá visualizar los últimos cursos y conferencias realizadas</p>
+                    <h6 class="tx-13 tx-uppercase tx-inverse tx-semibold tx-spacing-1">Últimos cursos y Conferencias Certificadas.</h6>
+                    <p class="mg-b-0">Estos son sus últimos certificados</p>
                   </div>
                 </div>
               </div>
@@ -76,6 +76,7 @@
         </div>
 
       </div>
+      <?php require_once("../html/Footer.php"); ?>
     </div>
     <?php require_once("../html/MainJs.php"); ?>
     <script type="text/javascript" src="usuhome.js"></script>
